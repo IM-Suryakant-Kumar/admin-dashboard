@@ -1,14 +1,9 @@
+import { Box, Container, Grid, Typography } from "@mui/material";
 import TourCard from "../components/TourCard";
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import { Typography } from "@mui/material";
-import Grid from "@mui/material/Grid";
-import SearchAppBar from "../components/AppBar";
 import cities from "../data.json";
 
 const Home = () => (
 	<Box>
-		<SearchAppBar />
 		<Container sx={{ my: 5 }}>
 			{cities.map((city) => (
 				<>
