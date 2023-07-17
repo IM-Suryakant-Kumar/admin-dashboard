@@ -1,4 +1,3 @@
-import Image from "../data/product4.jpg";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -39,7 +38,10 @@ const TourCard = ({ tour }) => {
 			xs={3}
 		>
 			<ThemeProvider theme={theme}>
-				<Paper elevation={3}>
+				<Paper
+					elevation={3}
+					sx={{ height: 250 }}
+				>
 					<img
 						src={tour.image}
 						alt=""
