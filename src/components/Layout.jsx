@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Container, Main } from "../styles/layout.sc";
 import Header from "./Header";
-import Footer from "./Footer";
 import Sidebar from "./Sidebar";
 
 const Layout = () => {
@@ -15,7 +14,6 @@ const Layout = () => {
 				<Sidebar />
 				<Outlet />
 			</Main>
-			{/* <Footer /> */}
 		</Container>
 	);
 };

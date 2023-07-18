@@ -1,7 +1,7 @@
 import Chart from "../components/Chart"
 import FeaturedInfo from "../components/FeaturedInfo"
 import { Container, HomeWidget } from "../styles/home.sc"
-import userData from "../dummyData.json";
+import userData from "../dummyData";
 import WidgetSm from "../components/WidgetSm";
 import WidgetLg from "../components/WidgetLg";
 

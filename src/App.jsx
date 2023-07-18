@@ -8,6 +8,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 
 import "./App.css";
+import Users from "./pages/Users";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -18,6 +19,10 @@ const router = createBrowserRouter(
 			<Route
 				index
 				element={<Home />}
+			/>
+			<Route
+				path="users"
+				element={<Users />}
 			/>
 		</Route>,
 	),
