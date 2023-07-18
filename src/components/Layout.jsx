@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Main } from "../styles/layout.css";
+import { Main } from "../styles/layout.sc";
 import Header from "./Header";
 import Footer from "./Footer";
 import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";

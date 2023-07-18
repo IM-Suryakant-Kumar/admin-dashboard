@@ -1,4 +1,4 @@
-import { Container } from "../styles/home.css"
+import { Container } from "../styles/home.sc"
 
 const Home = () => {
   return (
