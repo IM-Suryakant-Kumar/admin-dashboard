@@ -16,7 +16,7 @@ const WidgetSm = () => {
 	return (
 		<Container elevation={2}>
 			<Title
-				variant="h6"
+				variant="subtitle1"
 				component="h2"
 			>
 				New Join Members

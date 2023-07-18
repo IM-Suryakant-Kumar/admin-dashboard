@@ -10,7 +10,7 @@ export const Container = styled(Paper)`
 
 export const Title = styled(Typography)`
 	font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.5rem;
 `;
 
 export const SList = styled(List)`

@@ -35,7 +35,7 @@ export const PriceRate = styled(Stack)`
 	align-items: center;
 	margin-left: 1.25em;
 	& > .icon {
-		font-size: 0.7125rem;
+		font-size: 1rem;
 		margin-left: 0.358em;
 	}
 	& > .icon.negative {
