@@ -1,4 +1,3 @@
-import "./styles/App.css";
 import {
 	RouterProvider,
 	createBrowserRouter,
@@ -7,8 +6,8 @@ import {
 } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import Tour from "./pages/Tour";
-import Test from "./pages/Test";
+
+import "./App.css";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -19,14 +18,6 @@ const router = createBrowserRouter(
 			<Route
 				index
 				element={<Home />}
-			/>
-			<Route
-				path=":id"
-				element={<Tour />}
-			/>
-			<Route
-				path="test"
-				element={<Test />}
 			/>
 		</Route>,
 	),
