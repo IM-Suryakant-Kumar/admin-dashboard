@@ -53,6 +53,7 @@ const router = createBrowserRouter(
 					element={<NewProduct />}
 				/>
 			</Route>
+            {/* <Route path="*" element={<h1>Route does not exist</h1>} /> */}
 		</Route>,
 	),
 );
