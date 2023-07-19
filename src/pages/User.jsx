@@ -37,17 +37,23 @@ const User = () => {
 	return (
 		<Container>
 			<TitleContainer>
-				<Title variant="h6" component="h1">
+				<Title
+					variant="h6"
+					component="h1"
+				>
 					Edit User
 				</Title>
-				<Link to="/new-user">
+				<Link to="../new">
 					<Button variant="contained">Create</Button>
 				</Link>
 			</TitleContainer>
 			<UserContainer>
 				<UserInfo elevation={2}>
 					<UserTop>
-						<Image src={Avatar} alt="" />
+						<Image
+							src={Avatar}
+							alt=""
+						/>
 						<UserTopTitleContainer>
 							<UserTopName component="span">John Carl</UserTopName>
 							<UserTopTitle component="span">Software Engineer</UserTopTitle>
@@ -79,39 +85,65 @@ const User = () => {
 					</UserBottom>
 				</UserInfo>
 				<UserUpdate elevation={2}>
-					<UpdateTitle variant="subtitle1" component="h3">
+					<UpdateTitle
+						variant="subtitle1"
+						component="h3"
+					>
 						Edit
 					</UpdateTitle>
 					<UpdateForm>
 						<FormLeft>
 							<FormLeftItem>
 								<Label>Username</Label>
-								<Input type="text" placeholder="John32" />
+								<Input
+									type="text"
+									placeholder="John32"
+								/>
 							</FormLeftItem>
 							<FormLeftItem>
 								<Label>Full Name</Label>
-								<Input type="text" placeholder="John Carl" />
+								<Input
+									type="text"
+									placeholder="John Carl"
+								/>
 							</FormLeftItem>
 							<FormLeftItem>
 								<Label>Email</Label>
-								<Input type="text" placeholder="john@gmail.com" />
+								<Input
+									type="text"
+									placeholder="john@gmail.com"
+								/>
 							</FormLeftItem>
 							<FormLeftItem>
 								<Label>Phone</Label>
-								<Input type="text" placeholder="+1 123 456 67" />
+								<Input
+									type="text"
+									placeholder="+1 123 456 67"
+								/>
 							</FormLeftItem>
 							<FormLeftItem>
 								<Label>Address</Label>
-								<Input type="text" placeholder="New York | USA" />
+								<Input
+									type="text"
+									placeholder="New York | USA"
+								/>
 							</FormLeftItem>
 						</FormLeft>
 						<FormRight>
 							<FormRightItem>
-								<Image src={Avatar} alt="" className="right-img" />
+								<Image
+									src={Avatar}
+									alt=""
+									className="right-img"
+								/>
 								<Label htmlFor="file">
 									<PublishIcon />
 								</Label>
-								<Input type="file" id="file" className="hidden" />
+								<Input
+									type="file"
+									id="file"
+									className="hidden"
+								/>
 							</FormRightItem>
 							<Button className="update-btn">Update</Button>
 						</FormRight>

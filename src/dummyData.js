@@ -1,4 +1,5 @@
 import Avatar from "./data/avatar3.png";
+import Shoes from "./data/product4.jpg";
 
 export const userRows = [
     {
@@ -80,6 +81,89 @@ export const userRows = [
         email: "jon@gmail.com",
         status: "active",
         transaction: "₹ 120.00",
+    },
+];
+
+export const productRows = [
+    {
+        id: 1,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 2,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 3,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 4,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 5,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 6,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 7,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 8,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 9,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
+    },
+    {
+        id: 10,
+        name: "Nike Shoes",
+        img: Shoes,
+        stock: 123,
+        status: "active",
+        price: "₹ 120.00",
     },
 ];
 

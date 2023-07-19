@@ -1,9 +1,4 @@
-import {
-	RouterProvider,
-	createBrowserRouter,
-	createRoutesFromElements,
-	Route,
-} from "react-router-dom";
+import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 
@@ -11,6 +6,7 @@ import "./App.css";
 import Users from "./pages/Users";
 import User from "./pages/User";
 import NewUser from "./pages/NewUser";
+import Products from "./pages/Products";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -31,8 +27,25 @@ const router = createBrowserRouter(
 					path=":id"
 					element={<User />}
 				/>
+				<Route
+					path="new"
+					element={<NewUser />}
+				/>
 			</Route>
-            <Route path="new-user" element={<NewUser />} />
+			<Route path="products">
+				<Route
+					index
+					element={<Products />}
+				/>
+				<Route
+					path=":id"
+					element={<h1>Product</h1>}
+				/>
+				<Route
+					path="new"
+					element={<h1>New Product</h1>}
+				/>
+			</Route>
 		</Route>,
 	),
 );
