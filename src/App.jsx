@@ -7,6 +7,7 @@ import Users from "./pages/Users";
 import User from "./pages/User";
 import NewUser from "./pages/NewUser";
 import Products from "./pages/Products";
+import Product from "./pages/Product";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -39,7 +40,7 @@ const router = createBrowserRouter(
 				/>
 				<Route
 					path=":id"
-					element={<h1>Product</h1>}
+					element={<Product />}
 				/>
 				<Route
 					path="new"
