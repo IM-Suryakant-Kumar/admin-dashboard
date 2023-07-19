@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import "./App.css";
 import Users from "./pages/Users";
 import User from "./pages/User";
+import NewUser from "./pages/NewUser";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -31,6 +32,7 @@ const router = createBrowserRouter(
 					element={<User />}
 				/>
 			</Route>
+            <Route path="new-user" element={<NewUser />} />
 		</Route>,
 	),
 );

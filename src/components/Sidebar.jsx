@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
 	BarChartIcon,
 	ChatBubbleIcon,
@@ -48,14 +49,18 @@ const Sidebar = () => {
 				<SideMenu mb={1.5}>
 					<Title>Quick Menu</Title>
 					<List>
-						<ListItem>
-							<PersonIcon className="icon" />
-							Users
-						</ListItem>
-						<ListItem>
-							<StorefrontIcon className="icon" />
-							Products
-						</ListItem>
+						<Link to="/users" className="link">
+							<ListItem>
+								<PersonIcon className="icon" />
+								Users
+							</ListItem>
+						</Link>
+						<Link to="/products" className="link">
+							<ListItem>
+								<StorefrontIcon className="icon" />
+								Products
+							</ListItem>
+						</Link>
 						<ListItem>
 							<CurrencyRupeeIcon className="icon" />
 							Transactions
