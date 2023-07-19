@@ -1,4 +1,9 @@
-import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom";
+import {
+	RouterProvider,
+	createBrowserRouter,
+	createRoutesFromElements,
+	Route,
+} from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 
@@ -8,7 +13,7 @@ import User from "./pages/User";
 import NewUser from "./pages/NewUser";
 import Products from "./pages/Products";
 import Product from "./pages/Product";
-import NewProduct from "./pages/newProduct";
+import NewProduct from "./pages/NewProduct";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
