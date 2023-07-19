@@ -8,6 +8,7 @@ import User from "./pages/User";
 import NewUser from "./pages/NewUser";
 import Products from "./pages/Products";
 import Product from "./pages/Product";
+import NewProduct from "./pages/newProduct";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -44,7 +45,7 @@ const router = createBrowserRouter(
 				/>
 				<Route
 					path="new"
-					element={<h1>New Product</h1>}
+					element={<NewProduct />}
 				/>
 			</Route>
 		</Route>,

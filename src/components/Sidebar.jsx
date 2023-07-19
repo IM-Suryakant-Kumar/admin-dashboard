@@ -32,10 +32,15 @@ const Sidebar = () => {
 						Dashboard
 					</Title>
 					<List>
-						<ListItem className="active">
-							<LineStyleIcon className="icon" />
-							Home
-						</ListItem>
+						<Link
+							to="/"
+							className="link"
+						>
+							<ListItem className="active">
+								<LineStyleIcon className="icon" />
+								Home
+							</ListItem>
+						</Link>
 						<ListItem>
 							<TimelineIcon className="icon" />
 							Analytics
@@ -49,13 +54,19 @@ const Sidebar = () => {
 				<SideMenu mb={1.5}>
 					<Title>Quick Menu</Title>
 					<List>
-						<Link to="/users" className="link">
+						<Link
+							to="/users"
+							className="link"
+						>
 							<ListItem>
 								<PersonIcon className="icon" />
 								Users
 							</ListItem>
 						</Link>
-						<Link to="/products" className="link">
+						<Link
+							to="/products"
+							className="link"
+						>
 							<ListItem>
 								<StorefrontIcon className="icon" />
 								Products
